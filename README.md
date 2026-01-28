@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Adonis Garcia - Portfolio Website
 
 A modern, interactive portfolio website showcasing my journey as a Computer Science student, GLASS Scholar, and aspiring Software Engineer. Built with a focus on performance, accessibility, and user experience.
@@ -24,7 +23,7 @@ A modern, interactive portfolio website showcasing my journey as a Computer Scie
 
 ## 🛠️ Tech Stack
 
-- **HTML5**: Semantic markup with accessibility features
+- **HTML5*: Semantic markup with accessibility features
 - **CSS3**: Custom properties, flexbox, grid, keyframe animations
 - **Vanilla JavaScript**: No frameworks - lightweight and fast
 - **Lucide Icons**: Modern, professional icon system
