@@ -3,20 +3,19 @@
   "contact": {
     "phone": "845-945-1872",
     "email": "alfredolp707@gmail.com",
-    "linkedin": "https://linkedin.com/in/alfredo-leon-pumacallui",
+    "linkedin": "https://www.linkedin.com/in/alfredoleonpumacallahui/",
     "portfolio": "https://alfredoleonpumacallui.com",
     "location": "New York, NY 10473"
   },
   "education": [
     {
-      "school": "New York University, Tandon School of Engineering",
-      "location": "Brooklyn, NY",
+      "school": "Temple University, College of Science and Technology",
+      "location": "Philadelphia, PA",
       "degree": "Bachelor of Science in Computer Science",
-      "minor": "Mathematics",
-      "expectedGraduation": "August 2026",
-      "gpa": "4.0 / 4.0",
-      "logo": "assets/nyu-logo.png",
-      "logoAlt": "New York University logo",
+      "expectedGraduation": "May 2026",
+      "gpa": "3.63 / 4.0",
+      "logo": "assets/temple-logo.png",
+      "logoAlt": "Temple University logo",
       "studyAbroad": [
         "NYU Abu Dhabi, UAE (Spring 2024/2025)",
         "Hanyang University, Seoul, Korea (January 2025)"
@@ -31,11 +30,6 @@
       ],
       "programs": [
         "Global Leaders and Scholars in STEM (GLASS) Honors Program"
-      ],
-      "honors": [
-        "NYU Outstanding Innovator Award 2022",
-        "NYU Gunter Georgi Award 2022",
-        "NYU Scholar of the Year 2023"
       ],
       "coursework": [
         "Applied Machine Learning",
@@ -126,29 +120,6 @@
         "AI/ML",
         "Vector Databases"
       ]
-    },
-    {
-      "id": "04",
-      "company": "New York University",
-      "title": "Teaching Assistant",
-      "teamFocus": "General Engineering Education Team",
-      "date": "Jul 2023 – May 2024",
-      "location": "New York, NY",
-      "logo": "assets/nyu-logo.png",
-      "logoAlt": "NYU General Engineering Department logo",
-      "description": "Provided instructional support to undergraduate students in general engineering, computer science, and applied machine learning labs, focusing on hands-on prototyping and technical mentorship.",
-      "highlights": [
-        "Taught weekly programming labs to 50+ students with hands-on support; reduced engineering errors by 25%",
-        "Led workshops on cross-functional prototyping, coding, engineering design, AI/ML, sustainability, circuitry and more"
-      ],
-      "tags": [
-        "Teaching",
-        "Education",
-        "Python",
-        "Engineering Design",
-        "AI/ML",
-        "Workshops"
-      ]
     }
   ],
   "projects": [
@@ -223,7 +194,7 @@
         "Designed and developed a fully responsive portfolio website to showcase personal projects, skills, and experiences.",
         "Implemented dynamic content rendering frontend using JSON and integrated TailwindCSS for a modern aesthetic."
       ],
-      "repo": "https://github.com/adonis-garcia-git/portfolio",
+      "repo": "https://github.com/Alfredoleon25",
       "logo": null,
       "logoAlt": null
     },

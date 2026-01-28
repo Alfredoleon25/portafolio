@@ -1,7 +1,6 @@
-# Adonis Garcia - Portfolio Website
+# Alfredo Leon Pumacallahui- Portfolio Website
 
 A modern, interactive portfolio website showcasing my journey as a Computer Science student, GLASS Scholar, and aspiring Software Engineer. Built with a focus on performance, accessibility, and user experience.
-
 ## 🌟 Features
 
 ### Main Portfolio (`index.html`)
@@ -43,7 +42,7 @@ portfolio-main/
 ├── glass_portfolio_content.json   # GLASS-specific content
 ├── assets/                         # Images, logos, documents
 │   ├── *.jpg/png                   # Images for projects and experiences
-│   ├── Adonis_Garcia_Resume.pdf    # Downloadable resume
+│   ├── Alfredo_leon_Pumacallahui_Resume.pdf    # Downloadable resume
 │   └── glass-gallery-*.jpg         # GLASS photo gallery images
 └── README.md                       # This file
 ```
@@ -54,7 +53,7 @@ portfolio-main/
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/adonis-garcia-git/portfolio.git
+   git clone https://github.com/alfredoleon25/portfolio.git
    cd portfolio
    ```
 
@@ -200,10 +199,10 @@ This project is open source and available for educational purposes. Feel free to
 
 ## 📬 Contact
 
-- **Email**: adonisgarcia001@gmail.com
-- **LinkedIn**: [linkedin.com/in/adonis--garcia](https://linkedin.com/in/adonis--garcia)
-- **GitHub**: [github.com/adonis-garcia-git](https://github.com/adonis-garcia-git)
-- **Portfolio**: [View Live](https://adonis-garcia-git.github.io/portfolio)
+- **Email**: alfredolp707@gmail.com
+- **LinkedIn**: [linkedin.com/in/alfredo-leon-pumacallui](https://www.linkedin.com/in/alfredoleonpumacallahui/)
+- **GitHub**: [github.com/alfredoleon25](https://github.com/Alfredoleon25)
+- **Portfolio**: [View Live](https://alfredoleonpumacallui.com)
 
 ## 🙏 Acknowledgments
 

@@ -5,7 +5,7 @@
 // Throttle function - limits execution rate for better performance
 const throttle = (func, delay = 16) => {
   let lastCall = 0;
-  return function(...args) {
+  return function (...args) {
     const now = Date.now();
     if (now - lastCall >= delay) {
       lastCall = now;
@@ -19,7 +19,7 @@ const throttle = (func, delay = 16) => {
 // ============================================
 
 const DATA_PATH = 'resume.json';
-const RESUME_PATH = 'assets/Adonis_G_Resume_Fall_2025 (1).pdf';
+const RESUME_PATH = 'assets/Alfredo_Leon_Pumacallahui_Resume.pdf';
 const TAGLINE = 'software_engineer --passionate --impact';
 let resumeData = null;
 const siteHeader = document.querySelector('.site-header');
@@ -28,7 +28,7 @@ const siteHeader = document.querySelector('.site-header');
 const canvas = document.getElementById('bg-canvas');
 const ctx = canvas.getContext('2d');
 const particles = [];
-const particleCount = 30; // Reduced for better performance
+const particleCount = 30; // Reduced for better performanceç
 const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 const getParticleRGB = () =>
   getComputedStyle(document.body).getPropertyValue('--particle-color-rgb').trim() || '245, 166, 35';
@@ -158,13 +158,13 @@ const fadeObserver = new IntersectionObserver(
     entries.forEach((entry) => {
       if (!entry.isIntersecting) return;
       entry.target.classList.add('visible');
-      
+
       // Apply staggered delays to children
       const staggerChildren = entry.target.querySelectorAll('[data-stagger]');
       staggerChildren.forEach((child, index) => {
         child.style.animationDelay = `${index * 0.08}s`;
       });
-      
+
       fadeObserver.unobserve(entry.target);
     });
   },
@@ -190,7 +190,7 @@ const renderHero = (data) => {
 
   // Terminal-style tagline
   heroTagline.textContent = TAGLINE;
-  
+
   // Greeting with name
   heroName.innerHTML = `Hi, I'm ${data.name}.`;
 
@@ -254,7 +254,7 @@ const renderProjects = (projects = [], contact = {}, repoMap = {}) => {
     const title = document.createElement('h3');
     title.textContent = project.name;
     title.dataset.stagger = '';
-    
+
     const metaText = [project.location].filter(Boolean).join('\n');
     if (metaText) {
       const meta = document.createElement('p');
@@ -309,7 +309,7 @@ const renderProjects = (projects = [], contact = {}, repoMap = {}) => {
       githubButton.classList.add('btn--disabled');
       githubButton.title = 'Repository coming soon';
     }
-      actions.appendChild(githubButton);
+    actions.appendChild(githubButton);
 
     // Website button for specific projects
     const projectNameLower = (project.name || '').toLowerCase();
@@ -339,7 +339,7 @@ const renderProjects = (projects = [], contact = {}, repoMap = {}) => {
   const dotsContainer = document.getElementById('projects-dots');
   const prevBtn = document.getElementById('proj-prev');
   const nextBtn = document.getElementById('proj-next');
-  
+
   projectsCarousel = new ProjectsCarousel(grid, dotsContainer, prevBtn, nextBtn);
 };
 
@@ -354,7 +354,7 @@ class ExperienceCarousel {
     this.currentIndex = 0;
     this.cards = [];
     this.dots = [];
-    
+
     this.init();
   }
 
@@ -367,7 +367,7 @@ class ExperienceCarousel {
 
   renderCards() {
     this.track.innerHTML = '';
-    
+
     this.experiences.forEach((role, index) => {
       const card = document.createElement('article');
       card.className = 'carousel-card';
@@ -377,13 +377,13 @@ class ExperienceCarousel {
       const logoContent = role.logo
         ? `<img src="${role.logo}" alt="${role.logoAlt || role.company}" loading="lazy" />`
         : `<span class="carousel-card__logo-text">${(role.company || '')
-            .split(' ')
-            .map((word) => word.charAt(0))
-            .join('')
-            .slice(0, 3)}</span>`;
+          .split(' ')
+          .map((word) => word.charAt(0))
+          .join('')
+          .slice(0, 3)}</span>`;
 
       // Generate tags HTML
-      const tagsHtml = (role.tags || []).slice(0, 6).map(tag => 
+      const tagsHtml = (role.tags || []).slice(0, 6).map(tag =>
         `<span class="carousel-card__tag">${tag}</span>`
       ).join('');
 
@@ -411,7 +411,7 @@ class ExperienceCarousel {
 
   renderDots() {
     this.dotsContainer.innerHTML = '';
-    
+
     this.experiences.forEach((_, index) => {
       const dot = document.createElement('button');
       dot.className = 'carousel-dot';
@@ -424,18 +424,18 @@ class ExperienceCarousel {
 
   updateCarousel() {
     const total = this.cards.length;
-    
+
     this.cards.forEach((card, index) => {
       // Remove all position classes
       card.classList.remove('active', 'prev', 'next', 'hidden-left', 'hidden-right');
-      
+
       // Calculate position relative to current
       let position = index - this.currentIndex;
-      
+
       // Handle wrap-around for infinite loop effect
       if (position > total / 2) position -= total;
       if (position < -total / 2) position += total;
-      
+
       // Apply appropriate class
       if (position === 0) {
         card.classList.add('active');
@@ -461,7 +461,7 @@ class ExperienceCarousel {
     // Wrap around
     if (index < 0) index = total - 1;
     if (index >= total) index = 0;
-    
+
     this.currentIndex = index;
     this.updateCarousel();
   }
@@ -501,7 +501,7 @@ class ExperienceCarousel {
     // Keyboard navigation
     document.addEventListener('keydown', (e) => {
       const carouselInView = this.track.getBoundingClientRect().top < window.innerHeight &&
-                            this.track.getBoundingClientRect().bottom > 0;
+        this.track.getBoundingClientRect().bottom > 0;
       if (!carouselInView) return;
 
       if (e.key === 'ArrowLeft') {
@@ -548,7 +548,7 @@ class ProjectsCarousel {
     this.dots = [];
     this.isMobile = window.innerWidth <= 768;
     this.isInitialLoad = true; // Flag to prevent scroll on initial load
-    
+
     // Only initialize on mobile
     if (this.isMobile) {
       this.init();
@@ -569,7 +569,7 @@ class ProjectsCarousel {
     setTimeout(() => {
       this.cards = Array.from(this.container.querySelectorAll('.project-card'));
       if (this.cards.length === 0) return;
-      
+
       this.renderDots();
       this.updateCarousel();
       this.bindEvents();
@@ -581,7 +581,7 @@ class ProjectsCarousel {
     if (!this.dotsContainer) return;
     this.dotsContainer.innerHTML = '';
     this.dots = [];
-    
+
     this.cards.forEach((_, index) => {
       const dot = document.createElement('button');
       dot.className = 'projects-carousel-dot';
@@ -671,7 +671,7 @@ const renderExperience = (experienceRecords = []) => {
   const dotsContainer = document.getElementById('carousel-dots');
   const prevBtn = document.getElementById('exp-prev');
   const nextBtn = document.getElementById('exp-next');
-  
+
   if (!track) return;
 
   const sortedExperience = [...experienceRecords].sort((a, b) => {
@@ -772,7 +772,7 @@ const renderEducation = (education = []) => {
     degree.className = 'text-sm text-[var(--text-muted)] education-degree';
     // Use abbreviated degree on mobile
     const isMobile = window.innerWidth <= 768;
-    const degreeText = isMobile 
+    const degreeText = isMobile
       ? (entry.degree || '').replace('Bachelor of Science in', 'B.S.').replace('Bachelor of Science', 'B.S.')
       : entry.degree;
     degree.textContent = entry.minor
@@ -796,14 +796,14 @@ const renderEducation = (education = []) => {
     // Coursework Section with collapsible wrapper for mobile
     const courseworkSection = document.createElement('div');
     courseworkSection.className = 'edu-collapsible-section';
-    
+
     const courseworkBtn = document.createElement('button');
     courseworkBtn.className = 'edu-collapsible-btn';
     courseworkBtn.innerHTML = '<span>View Coursework</span><span class="edu-collapsible-icon">›</span>';
-    
+
     const courseworkContent = document.createElement('div');
     courseworkContent.className = 'edu-collapsible-content';
-    
+
     const courseworkTitle = document.createElement('p');
     courseworkTitle.className =
       'text-xs uppercase tracking-[0.4em] text-[var(--text-muted)] mb-3 edu-section-title';
@@ -826,7 +826,7 @@ const renderEducation = (education = []) => {
 
     courseworkContent.append(courseworkTitle, courseworkGrid);
     courseworkSection.append(courseworkBtn, courseworkContent);
-    
+
     // Toggle coursework on click
     courseworkBtn.addEventListener('click', () => {
       const isExpanded = courseworkContent.classList.toggle('expanded');
@@ -836,14 +836,14 @@ const renderEducation = (education = []) => {
     // Organizations Section with collapsible wrapper for mobile
     const organizationsSection = document.createElement('div');
     organizationsSection.className = 'edu-collapsible-section';
-    
+
     const organizationsBtn = document.createElement('button');
     organizationsBtn.className = 'edu-collapsible-btn';
     organizationsBtn.innerHTML = '<span>View Organizations</span><span class="edu-collapsible-icon">›</span>';
-    
+
     const organizationsContent = document.createElement('div');
     organizationsContent.className = 'edu-collapsible-content';
-    
+
     const organizationsTitle = document.createElement('p');
     organizationsTitle.className =
       'text-xs uppercase tracking-[0.4em] text-[var(--text-muted)] mb-3 edu-section-title';
@@ -872,7 +872,7 @@ const renderEducation = (education = []) => {
 
     organizationsContent.append(organizationsTitle, organizationsWrap);
     organizationsSection.append(organizationsBtn, organizationsContent);
-    
+
     // Toggle organizations on click
     organizationsBtn.addEventListener('click', () => {
       const isExpanded = organizationsContent.classList.toggle('expanded');
@@ -961,12 +961,12 @@ const renderSkills = (skills = {}) => {
       tag.className = 'skill-tag';
       tag.textContent = skill;
       tag.dataset.stagger = '';
-      
+
       // Add highlight class if skill is highlighted
       if (highlighted.includes(skill)) {
         tag.classList.add('skill-tag--highlight');
       }
-      
+
       tags.appendChild(tag);
     });
 
