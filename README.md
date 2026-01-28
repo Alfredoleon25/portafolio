@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Adonis Garcia - Portfolio Website
 
 A modern, interactive portfolio website showcasing my journey as a Computer Science student, GLASS Scholar, and aspiring Software Engineer. Built with a focus on performance, accessibility, and user experience.
@@ -217,3 +218,6 @@ This project is open source and available for educational purposes. Feel free to
 
 Last Updated: January 2026
 
+=======
+# portafolio
+>>>>>>> a22841ac50fa57dbaf3cea2bbf68f0b3c3f7d60c
