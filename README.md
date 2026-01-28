@@ -213,7 +213,7 @@ This project is open source and available for educational purposes. Feel free to
 ---
 **Built with curiosity, deployed with passion.** 🚀
 
-***Shoutout to Adonis Garcia! I took inspiration from his portfolio code, which he generously made available for reuse***
+***Shoutout to Adonis Garcia! I took inspiration from his portfolio, which he generously made available for reuse***
 
 Last Updated: January 2026
 
