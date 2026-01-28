@@ -1,11 +1,11 @@
 {
   "name": "Alfredo Leon Pumacallui",
   "contact": {
-    "phone": "845-945-1872",
-    "email": "alfredolp707@gmail.com",
+    "email": "[EMAIL_ADDRESS]",
     "linkedin": "https://www.linkedin.com/in/alfredoleonpumacallahui/",
+    "github": "https://github.com/alfredoleon25",
     "portfolio": "https://alfredoleonpumacallui.com",
-    "location": "New York, NY 10473"
+    "location": "Philadelphia, PA"
   },
   "education": [
     {
@@ -16,17 +16,13 @@
       "gpa": "3.63 / 4.0",
       "logo": "assets/temple-logo.png",
       "logoAlt": "Temple University logo",
-      "studyAbroad": [
-        "NYU Abu Dhabi, UAE (Spring 2024/2025)",
-        "Hanyang University, Seoul, Korea (January 2025)"
-      ],
       "organizations": [
-        "NYU Higher Education Opportunity Program (HEOP)",
-        "Society of Hispanic Professional Engineers (SHPE)",
-        "National Society of Black Engineers (NSBE)",
-        "NYU Academic Achievement Program (AAP)",
-        "NYU Global Leaders and Scholars in STEM Honors Program (GLASS)",
-        "Institute for Responsible Leadership (I4RC)"
+        "Association for Computing Machinery (ACM)",
+        "Temple Data Science Community (TDSC)",
+        "Association for Information Systems (AIS)",
+        "Temple Data Analytics Club (TDAC)",
+        "Latinos in STEM",
+        "Ascend Temple University"
       ],
       "programs": [
         "Global Leaders and Scholars in STEM (GLASS) Honors Program"
@@ -48,12 +44,12 @@
   "experience": [
     {
       "id": "01",
-      "company": "MissionML",
-      "title": "ML Software Engineer",
-      "teamFocus": "Government AI Solutions Team",
+      "company": "Fox School of Business, Temple University",
+      "title": "Research Assistant",
+      "teamFocus": "Customer Experience Technology Team",
       "date": "Sep 2025 – Present",
-      "location": "Remote",
-      "logo": "assets/missionml-favicon-volt.png",
+      "location": "Philadelphia, PA",
+      "logo": "assets/temple-logo.png",
       "logoAlt": "MissionML logo",
       "description": "Delivering full-stack ML solutions for government AI platform serving 5+ federal agencies with 99.9% uptime requirements.",
       "highlights": [
@@ -72,12 +68,12 @@
     },
     {
       "id": "02",
-      "company": "Bank of America",
-      "title": "Software Engineering Intern",
-      "teamFocus": "Employee Experience Technology Team",
-      "date": "May 2025 – Aug 2025",
-      "location": "Charlotte, NC",
-      "logo": "assets/bofa.png",
+      "company": "HCI Lab",
+      "title": "Undergraduate Researcher",
+      "teamFocus": "Researching AI/ML and Quantum Computing",
+      "date": "Dec 2025 – Present",
+      "location": "Philadelphia, PA",
+      "logo": "assets/HCI_lab.png",
       "logoAlt": "Bank of America logo",
       "description": "Designed and implemented workflow automation and backend infrastructure improvements for enterprise financial systems, enhancing internal operational efficiency and data accessibility.",
       "highlights": [
@@ -97,34 +93,36 @@
     },
     {
       "id": "03",
-      "company": "Polydelta AI",
-      "title": "ML Software Engineer",
-      "teamFocus": "MissionML Government AI Solutions Team",
-      "date": "Jan 2024 – Jun 2025",
-      "location": "Arlington, VA / Hybrid",
-      "logo": "assets/polydelta.jpg",
-      "logoAlt": "Polydelta AI logo",
-      "description": "Worked on advanced LLM and Retrieval-Augmented Generation (RAG) architectures for government applications, optimizing accuracy and scalability for large-scale information retrieval.",
+      "company": "Fresquito",
+      "title": "Customer Service Assistant",
+      "teamFocus": "Improve Customer Experience",
+      "date": "May 2025 – Jun 2025",
+      "location": "Cusco, Peru",
+      "logo": "assets/fresquito.jpg",
+      "logoAlt": "Fresquito logo",
+      "description": "Assisted customers with their needs and provided information about the company's products and services.",
       "highlights": [
-        "Developed LLM-powered chatbots with RAG using Python, Langchain, and Pinecone, improving average accuracy by 40%",
-        "Architected document processing pipelines that crawled, embedded, and stored 10,000+ legal documents in vector database",
-        "Constructed models to optimize legal-domain embeddings and built stakeholder demos that secured federal AI adoption",
-        "Collaborated directly with agency stakeholders to gather mission-critical requirements and customize ML solutions"
+        "Answered customer inquiries and provided information about the company's products and services",
+        "Resolved customer complaints and issues in a timely and professional manner",
+        "Maintained a positive and professional attitude while interacting with customers"
       ],
       "tags": [
-        "Python",
-        "LangChain",
-        "Pinecone",
-        "LLM",
-        "RAG",
-        "AI/ML",
-        "Vector Databases"
+        "Customer Service",
+        "Communication",
+        "Problem Solving",
+        "Teamwork",
+        "Time Management",
+        "Adaptability",
+        "Responsibility",
+        "Work Ethic",
+        "Professionalism",
+        "Customer Satisfaction"
       ]
     }
   ],
   "projects": [
     {
-      "name": "NYUAD Hackathon for Social Good – Q-quake/الൂളز-ك",
+      "name": "Health Risk Prediction App",
       "tech": [
         "Python",
         "Quantum Computing",
@@ -132,17 +130,17 @@
         "APIs",
         "Data Science"
       ],
-      "location": "Abu Dhabi, UAE",
+      "location": "Philadelphia, PA",
       "description": [
-        "Built hybrid earthquake system using AI/ML and quantum sensing, targeting 1+ minute warning improvements.",
-        "Collaborated with global team to fuse seismic data with quantum inputs, securing 2nd place and Audience Choice Award."
+        "Built a health-risk application using the Delphi 2M model, analyzing user health data to estimate risk patterns with 90% accuracy",
+        "Created a React and TypeScript frontend for visualizing tailored insights and tracking trends, increasing user engagement by 25%"
       ],
-      "repo": "https://github.com/elucidator8918/NYUAD",
+      "repo": "https://github.com/alfredoleon25/Health-Risk-Prediction-App-",
       "logo": "assets/qquake-logo.png",
       "logoAlt": "Q-quake project logo"
     },
     {
-      "name": "Personalized CS Learning Platform",
+      "name": "Campus Tutoring Platform",
       "tech": [
         "React",
         "Node.js",
@@ -151,17 +149,17 @@
         "PostgreSQL",
         "CodeMirror"
       ],
-      "location": "New York, NY",
+      "location": "Philadelphia, PA",
       "description": [
-        "Developed web tutoring system contextualizing CS concepts to student interests using LLM-generated personalized examples.",
-        "Implemented structured prompting with Claude API to generate themed code examples across 8-10 core concepts."
+        "Launched a peer-to-peer learning platform helping students tackle complex topics through peer teaching, used by 100+ students",
+        "Designed UI/UX in React and TypeScript, using Node.js and Supabase for real-time updates, ensuring seamless user experience"
       ],
-      "repo": null,
+      "repo": "https://github.com/alfredoleon25/StudyPal",
       "logo": null,
       "logoAlt": null
     },
     {
-      "name": "Course Q&A RAG System",
+      "name": "Data Analytics App",
       "tech": [
         "Next.js",
         "FastAPI",
@@ -170,12 +168,12 @@
         "Anthropic API",
         "HDBSCAN"
       ],
-      "location": "New York, NY",
+      "location": "Philadelphia, PA",
       "description": [
-        "Built role-based RAG system enabling students to query course documents with admin analytics dashboard.",
-        "Engineered document processing pipeline and HDBSCAN clustering to identify common questions and content gaps."
+        "Built a full-stack data analytics app by integrating Google Sheets, Excel, and CSV, enabling smooth multi-source data processing",
+        "Implemented interactive dashboards using Streamlit, delivering charts and AI-generated insights to enhance data visualization"
       ],
-      "repo": null,
+      "repo": "https://github.com/alfredoleon25/Smart-Accounting-Dashboard",
       "logo": null,
       "logoAlt": null
     },
@@ -189,17 +187,17 @@
         "JSON",
         "Responsive Design"
       ],
-      "location": "New York, NY",
+      "location": "Philadelphia, PA",
       "description": [
         "Designed and developed a fully responsive portfolio website to showcase personal projects, skills, and experiences.",
         "Implemented dynamic content rendering frontend using JSON and integrated TailwindCSS for a modern aesthetic."
       ],
-      "repo": "https://github.com/Alfredoleon25",
+      "repo": "https://github.com/Alfredoleon25/portafolio",
       "logo": null,
       "logoAlt": null
     },
     {
-      "name": "The E-Glove",
+      "name": "Storm Path Visualizer",
       "tech": [
         "Python",
         "C++",
@@ -209,12 +207,12 @@
         "Pynput",
         "Fusion 360"
       ],
-      "location": "New York, NY",
+      "location": "Philadelphia, PA",
       "description": [
-        "Built wireless glove mouse using computer vision and string actuation; won two NYU engineering innovation awards.",
-        "Achieved 92% tracking accuracy with OpenCV, PySerial, and smooth cursor control via C++ and Pynput."
+        "real-time hurricane tracking and storm path visualization tool",
+        "Used real time data from different APIs to track hurricanes and storms"
       ],
-      "repo": "https://github.com/adonis-garcia-git/E-Glove",
+      "repo": "https://github.com/alfredoleon25/storm-path-visualizer",
       "logo": "assets/eglove-logo.png",
       "logoAlt": "E-Glove project logo"
     }
@@ -293,8 +291,8 @@
       "Scrum"
     ],
     "spokenLanguages": [
-      "English (Native)",
-      "Spanish (Native)"
+      "English",
+      "Spanish"
     ],
     "interests": [
       "Travel",

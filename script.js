@@ -194,7 +194,7 @@ const renderHero = (data) => {
   // Greeting with name
   heroName.innerHTML = `Hi, I'm ${data.name}.`;
 
-  heroSummary.textContent = `Based in New York, NY, I'm looking to further my skillset as a software developer through personal projects while also looking for a fulltime position.`;
+  heroSummary.textContent = `Based in Philadelphia, PA, I'm looking to further my skillset as a software developer through personal projects while also looking for Internships.`;
 
   heroLinks.innerHTML = '';
   const contactLinks = [
@@ -317,7 +317,6 @@ const renderProjects = (projects = [], contact = {}, repoMap = {}) => {
       const websiteButton = document.createElement('a');
       websiteButton.className = 'btn btn--primary btn--small btn--with-icon';
       websiteButton.innerHTML = `<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg> Hackathon`;
-      websiteButton.href = 'https://hackathon.nyuad.nyu.edu/year/2025/';
       websiteButton.target = '_blank';
       websiteButton.rel = 'noopener noreferrer';
       actions.appendChild(websiteButton);
